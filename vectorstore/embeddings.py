@@ -11,3 +11,4 @@ embeddings = AzureOpenAIEmbeddings(
     deployment=os.getenv("AZURE_EMBEDDING_DEPLOYMENT"),
     api_version=os.getenv("AZURE_OPENAI_API_VERSION")
 )
+

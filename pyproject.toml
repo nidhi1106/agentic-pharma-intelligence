@@ -1,0 +1,30 @@
+[project]
+name = "agentic-pharma-intelligence"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nidhi Srivastava", email = "nidhi1106s@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "azure-functions>=1.25.0",
+    "azure-storage-blob>=12.30.3",
+    "faiss-cpu>=1.15.1",
+    "langchain>=1.4.2",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.6.4",
+    "langgraph>=1.2.12",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "streamlit>=1.64.0",
+    "tiktoken>=0.14.0",
+]
+
+[project.scripts]
+agentic-pharma-intelligence = "agentic_pharma_intelligence:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"

@@ -1,0 +1,16 @@
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# test files
+ingestion/test.py
+
+
+__pycache__/
+*.pyc
+
+# temporary word document files
+~$*
